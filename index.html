@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // var objects = [{ 'a': 1 }, { 'b': 2 }];
+    var object = {obj:{a:1,b:3}};
+    // var deep = _.cloneDeep(object);
+    var deep = {...object};
+    deep.obj.a = 3;
+    // console.log(deep[0] === objects[0]);
+    console.log(object,deep);
+    // => false
+  </script>
+</body>
+</html>
