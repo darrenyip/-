@@ -1,22 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-  <title>Document</title>
-</head>
+<html>  
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+  <title></title>
+
+  <style> 
+    html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+    #map{
+      padding:0;
+    }
+    .first{
+      margin:20px;
+      background:lightgreen;
+      width:100px;
+      height:100px;
+    }
+    ul{
+      /*display:inline-block;*/
+      margin:10px;
+      background:lightblue;
+    }
+    li{
+      margin:25px;
+    }
+  </style> 
+  
+  
+</head> 
+<style>
+    body {
+        width: 300px;
+        position: relative;
+    }
+ 
+    .aside {
+        width: 100px;
+        height: 150px;
+        float: left;
+        background: #f66;
+    }
+ 
+    .main {
+        height: 200px;
+        background: #fcc;
+    }
+</style>
 <body>
-  <script>
-    // var objects = [{ 'a': 1 }, { 'b': 2 }];
-    var object = {obj:{a:1,b:3}};
-    // var deep = _.cloneDeep(object);
-    var deep = {...object};
-    deep.obj.a = 3;
-    // console.log(deep[0] === objects[0]);
-    console.log(object,deep);
-    // => false
-  </script>
+    <div class="aside"></div>
+    <div class="main"></div>
+    <script>
+        
+    </script>
 </body>
+
+
 </html>
