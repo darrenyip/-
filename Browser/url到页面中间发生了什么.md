@@ -22,5 +22,9 @@ After a valid URL is entered, the browser will search the current cache, see if 
 
 ## TCP/IP Phase
 
+When we discuss about TCP, I guess the first action comes in our mind is shaking hands. Indeed. But there is a small step before building the TCP connection. In current version of Google Chrome, each URL can only form up to 6 TCP connections at the same time; therefore, we will need to wait until other TCP terminate their connection, then the TCP we want to connect is started. 
+
+
+
 
 
